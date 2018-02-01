@@ -41,18 +41,8 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       
-        let memeTextAttributes:[String:Any] = [
-            NSStrokeColorAttributeName: UIColor.black,
-            NSForegroundColorAttributeName: UIColor.white,
-            NSFontAttributeName: UIFont(name: "HelveticaNeue-CondensedBlack", size: 40)!,
-            NSStrokeWidthAttributeName: 2.0]
-        
-        topTextField.defaultTextAttributes = memeTextAttributes
-        topTextField.textAlignment = .center
-        bottomTextField.defaultTextAttributes = memeTextAttributes
-        bottomTextField.textAlignment = .center
-        
+        memeify(text: topTextField)
+        memeify(text: bottomTextField)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -60,13 +50,25 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
         
         subscribeToKeyboardNotifications()
         
-         cameraButton.isEnabled = UIImagePickerController.isSourceTypeAvailable(.camera)
+        cameraButton.isEnabled = UIImagePickerController.isSourceTypeAvailable(.camera)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         
         super.viewWillDisappear(animated)
         unsubscribeFromKeyboardNotifications()
+    }
+    
+    func memeify(text: UITextField) {
+        let memeTextAttributes:[String:Any] = [
+            NSStrokeColorAttributeName: UIColor.black,
+            NSForegroundColorAttributeName: UIColor.white,
+            NSFontAttributeName: UIFont(name: "HelveticaNeue-CondensedBlack", size: 40)!,
+            NSStrokeWidthAttributeName: -2.0]
+        
+        text.defaultTextAttributes = memeTextAttributes
+        text.textAlignment = .center
+
     }
     
     func generateMemedImage() -> UIImage {
@@ -81,30 +83,27 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
     }
     
     func save(meme image: UIImage) {        
-       
-       // let meme = Meme(topText: topTextField.text!, bottomText: bottomTextField.text!, image: imagePickerView.image!, memedImage: image);
-        UIImageWriteToSavedPhotosAlbum(image, self, nil, nil)
+        
+        //  "Save" meme
+        
+        let meme = Meme(topText: topTextField.text!, bottomText: bottomTextField.text!, image: imagePickerView.image!, memedImage: image);
     }
     
     func share() {
         toggleBars(toState: .hidden)
         let memedImage = generateMemedImage()
-
+        toggleBars(toState: .visible)
+        
         let vc = UIActivityViewController(activityItems: [memedImage], applicationActivities: nil)
         vc.completionWithItemsHandler = {(activityType: UIActivityType?, completed: Bool, returnedItems: Any?, error: Error?) in
             if !completed {
-                // User canceled
+                // User canceled, so nada
                 return
             }
-            if let meme = returnedItems as? UIImage, let activity = activityType {
-                if activity != .saveToCameraRoll {
+            if let meme = returnedItems as? UIImage {
                     self.save(meme: meme)
-                }
-                 self.toggleBars(toState: .visible)
             }
-          
         }
-        
         present(vc, animated: true, completion: nil)
     }
     
@@ -118,10 +117,6 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
             navController.isHidden = false
         }
     }
-    
-    
-    
-   
 }
 
 extension ViewController: UIImagePickerControllerDelegate {
@@ -163,8 +158,9 @@ extension ViewController: UIImagePickerControllerDelegate {
 extension ViewController: UITextFieldDelegate {
     
     func keyboardWillShow(_ notification:Notification) {
-        view.frame.origin.y = 0
-        view.frame.origin.y -= getKeyboardHeight(notification)/2
+        if bottomTextField.isFirstResponder {
+            view.frame.origin.y -= getKeyboardHeight(notification)
+        }
     }
     
     func keyboardWillHide(_ notification: Notification) {
@@ -181,18 +177,15 @@ extension ViewController: UITextFieldDelegate {
     func subscribeToKeyboardNotifications() {
         
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: .UIKeyboardWillShow, object: nil)
-        
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(_:)), name: .UIKeyboardWillHide, object: nil)
     }
     
     func unsubscribeFromKeyboardNotifications() {
-        
-        NotificationCenter.default.removeObserver(self, name: .UIKeyboardWillShow, object: nil)
-         NotificationCenter.default.removeObserver(self, name: .UIKeyboardWillHide, object: nil)
+        NotificationCenter.default.removeObserver(self)
     }
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
-
+        
         if textField.tag == 0 {
             bottomTextField.resignFirstResponder()
         } else {
@@ -215,6 +208,4 @@ extension ViewController: UITextFieldDelegate {
         
         return true
     }
-    
-    
 }

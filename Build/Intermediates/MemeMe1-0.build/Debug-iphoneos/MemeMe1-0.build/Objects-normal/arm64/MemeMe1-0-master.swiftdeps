@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "9329abff0e43bdb99f128073cec9c277"
+build_time: [557427424, 682044000]
+inputs:
+  "/Users/Derek-Nox/NetBeansProjects/Udacity/MemeMe1-0/MemeMe1-0/ViewController.swift": !dirty [556983438, 0]
+  "/Users/Derek-Nox/NetBeansProjects/Udacity/MemeMe1-0/MemeMe1-0/AppDelegate.swift": !dirty [556939676, 0]

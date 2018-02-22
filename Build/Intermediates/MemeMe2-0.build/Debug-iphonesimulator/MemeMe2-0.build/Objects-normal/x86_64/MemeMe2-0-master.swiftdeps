@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "5a40211b5e36955b8970e685c9a11b94"
+build_time: [1519325100, 687271000]
+inputs:
+  "/Users/Derek-Nox/NetBeansProjects/Udacity/MemeMe2-0/MemeMe2-0/SentMemesTableViewController.swift": [1519325100, 0]
+  "/Users/Derek-Nox/NetBeansProjects/Udacity/MemeMe2-0/MemeMe2-0/MemeCollectionCell.swift": [1519243631, 0]
+  "/Users/Derek-Nox/NetBeansProjects/Udacity/MemeMe2-0/MemeMe2-0/ShowMemeViewController.swift": [1518141149, 0]
+  "/Users/Derek-Nox/NetBeansProjects/Udacity/MemeMe2-0/MemeMe2-0/MemeTableCell.swift": [1519232935, 0]
+  "/Users/Derek-Nox/NetBeansProjects/Udacity/MemeMe2-0/MemeMe2-0/CreateMemeViewController.swift": [1519246298, 0]
+  "/Users/Derek-Nox/NetBeansProjects/Udacity/MemeMe2-0/MemeMe2-0/SentMemesCollectionViewController.swift": [1519325100, 0]
+  "/Users/Derek-Nox/NetBeansProjects/Udacity/MemeMe2-0/MemeMe2-0/AppDelegate.swift": [1517571631, 0]

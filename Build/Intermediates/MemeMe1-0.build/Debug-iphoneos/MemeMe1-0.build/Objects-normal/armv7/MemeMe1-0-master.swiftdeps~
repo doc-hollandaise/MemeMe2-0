@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "05b8bea866539a76ecfb96b830f53348"
+build_time: [556939679, 160175000]
+inputs:
+  "/Users/Derek-Nox/NetBeansProjects/Udacity/MemeMe1-0/MemeMe1-0/ViewController.swift": [556939676, 0]
+  "/Users/Derek-Nox/NetBeansProjects/Udacity/MemeMe1-0/MemeMe1-0/AppDelegate.swift": [556939676, 0]

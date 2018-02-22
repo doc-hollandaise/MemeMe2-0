@@ -1,0 +1,207 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MemeCollectionCell"
+provides-nominal:
+- "9MemeMe2_00A14CollectionCellC"
+provides-member:
+- ["9MemeMe2_00A14CollectionCellC", ""]
+provides-dynamic-lookup:
+- "memeImageView"
+- "prepareForReuse"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Meme"
+- "MemeCollectionCell"
+- "UICollectionViewCell"
+- "UIImageView"
+depends-member:
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "meme"]
+- !private ["So15CALayerDelegateP", "memeImageView"]
+- ["So15CALayerDelegateP", ""]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "meme"]
+- !private ["s7CVarArgP", "memeImageView"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "meme"]
+- !private ["s28CustomDebugStringConvertibleP", "memeImageView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "meme"]
+- !private ["s23CustomStringConvertibleP", "memeImageView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "meme"]
+- !private ["s9EquatableP", "memeImageView"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "image"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "meme"]
+- !private ["s8HashableP", "memeImageView"]
+- ["s8HashableP", ""]
+- !private ["9MemeMe2_00A0V", "memedImage"]
+- ["9MemeMe2_00A14CollectionCellC", "Meme"]
+- ["9MemeMe2_00A14CollectionCellC", "UIImageView"]
+- ["9MemeMe2_00A14CollectionCellC", "deinit"]
+- ["9MemeMe2_00A14CollectionCellC", "init"]
+- ["9MemeMe2_00A14CollectionCellC", "meme"]
+- ["9MemeMe2_00A14CollectionCellC", "memeImageView"]
+- ["9MemeMe2_00A14CollectionCellC", "prepareForReuse"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "meme"]
+- !private ["So8NSCodingP", "memeImageView"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "Meme"]
+- ["So8NSObjectC", "UIImageView"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "meme"]
+- ["So8NSObjectC", "memeImageView"]
+- ["So8NSObjectC", "prepareForReuse"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "meme"]
+- !private ["So16NSObjectProtocolP", "memeImageView"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "meme"]
+- !private ["So29UIAccessibilityIdentificationP", "memeImageView"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "meme"]
+- !private ["So12UIAppearanceP", "memeImageView"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "meme"]
+- !private ["So21UIAppearanceContainerP", "memeImageView"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So24UICollectionReusableViewC", "Meme"]
+- ["So24UICollectionReusableViewC", "UIImageView"]
+- ["So24UICollectionReusableViewC", "init"]
+- ["So24UICollectionReusableViewC", "meme"]
+- ["So24UICollectionReusableViewC", "memeImageView"]
+- ["So24UICollectionReusableViewC", "prepareForReuse"]
+- ["So20UICollectionViewCellC", "Meme"]
+- ["So20UICollectionViewCellC", "UIImageView"]
+- ["So20UICollectionViewCellC", "init"]
+- ["So20UICollectionViewCellC", "meme"]
+- ["So20UICollectionViewCellC", "memeImageView"]
+- ["So20UICollectionViewCellC", "prepareForReuse"]
+- ["So20UICollectionViewCellC", ""]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "meme"]
+- !private ["So17UICoordinateSpaceP", "memeImageView"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "meme"]
+- !private ["So13UIDynamicItemP", "memeImageView"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "meme"]
+- !private ["So18UIFocusEnvironmentP", "memeImageView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "meme"]
+- !private ["So11UIFocusItemP", "memeImageView"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "meme"]
+- !private ["So30UIPasteConfigurationSupportingP", "memeImageView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Meme"]
+- ["So11UIResponderC", "UIImageView"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "meme"]
+- ["So11UIResponderC", "memeImageView"]
+- ["So11UIResponderC", "prepareForReuse"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "meme"]
+- !private ["So30UIResponderStandardEditActionsP", "memeImageView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "meme"]
+- !private ["So18UITraitEnvironmentP", "memeImageView"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "Meme"]
+- ["So6UIViewC", "UIImageView"]
+- !private ["So6UIViewC", "image"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "meme"]
+- ["So6UIViewC", "memeImageView"]
+- ["So6UIViewC", "prepareForReuse"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "meme"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "memeImageView"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "meme"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "memeImageView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- !private "9MemeMe2_00A0V"
+- "9MemeMe2_00A14CollectionCellC"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So11UIImageViewC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "26a658ab0688bd0bb8e7b72ba13deca1"

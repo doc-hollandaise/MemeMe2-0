@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "dfdf60f9bef4c930adfa0173ba2cae44"
+build_time: [1517450266, 778030000]
+inputs:
+  "/Users/Derek-Nox/NetBeansProjects/Udacity/MemeMe1-0/MemeMe1-0/ViewController.swift": [1517450266, 0]
+  "/Users/Derek-Nox/NetBeansProjects/Udacity/MemeMe1-0/MemeMe1-0/AppDelegate.swift": [1503624476, 0]

@@ -1,0 +1,316 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SentMemesCollectionViewController"
+provides-nominal:
+- "9MemeMe2_033SentMemesCollectionViewControllerC"
+provides-member:
+- ["9MemeMe2_033SentMemesCollectionViewControllerC", ""]
+provides-dynamic-lookup:
+- "flowLayout"
+- "viewDidLoad"
+depends-top-level:
+- !private "*"
+- !private "-"
+- !private "/"
+- "AssignmentPrecedence"
+- !private "CGFloat"
+- !private "CGSize"
+- "SentMemesCollectionViewController"
+- "UICollectionViewController"
+- "UICollectionViewFlowLayout"
+depends-member:
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["SC6CGRectV", "size"]
+- !private ["SC6CGSizeV", "height"]
+- !private ["SC6CGSizeV", "init"]
+- !private ["SC6CGSizeV", "width"]
+- !private ["s7CVarArgP", "CGSize"]
+- !private ["s7CVarArgP", "flowLayout"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "itemSize"]
+- !private ["s7CVarArgP", "minimumInteritemSpacing"]
+- !private ["s7CVarArgP", "minimumLineSpacing"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "CGSize"]
+- !private ["s28CustomDebugStringConvertibleP", "flowLayout"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "itemSize"]
+- !private ["s28CustomDebugStringConvertibleP", "minimumInteritemSpacing"]
+- !private ["s28CustomDebugStringConvertibleP", "minimumLineSpacing"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "CGSize"]
+- !private ["s23CustomStringConvertibleP", "flowLayout"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "itemSize"]
+- !private ["s23CustomStringConvertibleP", "minimumInteritemSpacing"]
+- !private ["s23CustomStringConvertibleP", "minimumLineSpacing"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "size"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "size"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "CGSize"]
+- !private ["s9EquatableP", "flowLayout"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "itemSize"]
+- !private ["s9EquatableP", "minimumInteritemSpacing"]
+- !private ["s9EquatableP", "minimumLineSpacing"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "width"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "CGSize"]
+- !private ["s8HashableP", "flowLayout"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "itemSize"]
+- !private ["s8HashableP", "minimumInteritemSpacing"]
+- !private ["s8HashableP", "minimumLineSpacing"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["So8NSCodingP", "CGSize"]
+- !private ["So8NSCodingP", "flowLayout"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "itemSize"]
+- !private ["So8NSCodingP", "minimumInteritemSpacing"]
+- !private ["So8NSCodingP", "minimumLineSpacing"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "CGSize"]
+- !private ["So26NSExtensionRequestHandlingP", "flowLayout"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "UICollectionViewFlowLayout"]
+- ["So8NSObjectC", "flowLayout"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "itemSize"]
+- !private ["So8NSObjectC", "minimumInteritemSpacing"]
+- !private ["So8NSObjectC", "minimumLineSpacing"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "CGSize"]
+- !private ["So16NSObjectProtocolP", "flowLayout"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "itemSize"]
+- !private ["So16NSObjectProtocolP", "minimumInteritemSpacing"]
+- !private ["So16NSObjectProtocolP", "minimumLineSpacing"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["9MemeMe2_033SentMemesCollectionViewControllerC", "CGFloat"]
+- !private ["9MemeMe2_033SentMemesCollectionViewControllerC", "CGSize"]
+- ["9MemeMe2_033SentMemesCollectionViewControllerC", "UICollectionViewFlowLayout"]
+- ["9MemeMe2_033SentMemesCollectionViewControllerC", "deinit"]
+- ["9MemeMe2_033SentMemesCollectionViewControllerC", "flowLayout"]
+- ["9MemeMe2_033SentMemesCollectionViewControllerC", "init"]
+- !private ["9MemeMe2_033SentMemesCollectionViewControllerC", "view"]
+- ["9MemeMe2_033SentMemesCollectionViewControllerC", "viewDidLoad"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So21UIAppearanceContainerP", "CGSize"]
+- !private ["So21UIAppearanceContainerP", "flowLayout"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So26UICollectionViewControllerC", "CGFloat"]
+- !private ["So26UICollectionViewControllerC", "CGSize"]
+- ["So26UICollectionViewControllerC", "UICollectionViewFlowLayout"]
+- ["So26UICollectionViewControllerC", "flowLayout"]
+- ["So26UICollectionViewControllerC", "init"]
+- !private ["So26UICollectionViewControllerC", "view"]
+- ["So26UICollectionViewControllerC", "viewDidLoad"]
+- ["So26UICollectionViewControllerC", ""]
+- !private ["So26UICollectionViewDataSourceP", "CGSize"]
+- !private ["So26UICollectionViewDataSourceP", "flowLayout"]
+- !private ["So26UICollectionViewDataSourceP", "init"]
+- !private ["So26UICollectionViewDataSourceP", "view"]
+- !private ["So26UICollectionViewDataSourceP", "viewDidLoad"]
+- ["So26UICollectionViewDataSourceP", ""]
+- !private ["So24UICollectionViewDelegateP", "CGSize"]
+- !private ["So24UICollectionViewDelegateP", "flowLayout"]
+- !private ["So24UICollectionViewDelegateP", "init"]
+- !private ["So24UICollectionViewDelegateP", "view"]
+- !private ["So24UICollectionViewDelegateP", "viewDidLoad"]
+- ["So24UICollectionViewDelegateP", ""]
+- !private ["So26UICollectionViewFlowLayoutC", "itemSize"]
+- !private ["So26UICollectionViewFlowLayoutC", "minimumInteritemSpacing"]
+- !private ["So26UICollectionViewFlowLayoutC", "minimumLineSpacing"]
+- !private ["So22UICollectionViewLayoutC", "itemSize"]
+- !private ["So22UICollectionViewLayoutC", "minimumInteritemSpacing"]
+- !private ["So22UICollectionViewLayoutC", "minimumLineSpacing"]
+- !private ["So18UIContentContainerP", "CGSize"]
+- !private ["So18UIContentContainerP", "flowLayout"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "CGSize"]
+- !private ["So18UIFocusEnvironmentP", "flowLayout"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "flowLayout"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "CGFloat"]
+- !private ["So11UIResponderC", "CGSize"]
+- ["So11UIResponderC", "UICollectionViewFlowLayout"]
+- ["So11UIResponderC", "flowLayout"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "CGSize"]
+- !private ["So30UIResponderStandardEditActionsP", "flowLayout"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So20UIScrollViewDelegateP", "CGSize"]
+- !private ["So20UIScrollViewDelegateP", "flowLayout"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "view"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So16UIStateRestoringP", "CGSize"]
+- !private ["So16UIStateRestoringP", "flowLayout"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "CGSize"]
+- !private ["So18UITraitEnvironmentP", "flowLayout"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "frame"]
+- !private ["So16UIViewControllerC", "CGFloat"]
+- !private ["So16UIViewControllerC", "CGSize"]
+- ["So16UIViewControllerC", "UICollectionViewFlowLayout"]
+- ["So16UIViewControllerC", "flowLayout"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flowLayout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "itemSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minimumInteritemSpacing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minimumLineSpacing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "9MemeMe2_033SentMemesCollectionViewControllerC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So26UICollectionViewControllerC"
+- "So26UICollectionViewDataSourceP"
+- "So24UICollectionViewDelegateP"
+- !private "So26UICollectionViewFlowLayoutC"
+- !private "So22UICollectionViewLayoutC"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "1919439694c661a9826db746c4fcec99"

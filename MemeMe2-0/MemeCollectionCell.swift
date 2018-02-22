@@ -9,7 +9,13 @@
 import UIKit
 
 class MemeCollectionCell: UICollectionViewCell {
+    var meme: Meme?
+    @IBOutlet weak var memeImageView: UIImageView!
     
-    
-    //  do stuff
+    override func prepareForReuse() {
+        if let passedMeme = meme, let image = passedMeme.memedImage {
+            self.memeImageView.image = image
+           
+        }
+    }
 }

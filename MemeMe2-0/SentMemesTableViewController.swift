@@ -9,7 +9,7 @@
 import UIKit
 
 class SentMemesTableViewController: UITableViewController, Presenter {
-    
+    @IBOutlet var memeTableView: UITableView!
     
     
     var memes = [Meme]() {
@@ -19,13 +19,18 @@ class SentMemesTableViewController: UITableViewController, Presenter {
     }
     
 
-    @IBOutlet var memeTableView: UITableView!
+
     override func viewDidLoad() {
-        super.viewDidLoad()
-        memeTableView.register(MemeTableCell.self, forCellReuseIdentifier: "MemeTableView")
-        
+        super.viewDidLoad()       
+    
         updateMemes()
-    } 
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        reload()
+    }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
@@ -41,6 +46,14 @@ class SentMemesTableViewController: UITableViewController, Presenter {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let meme = memes[indexPath.row]
+        
+        if let vc = self.storyboard?.instantiateViewController(withIdentifier: "ShowMemeVC") as? ShowMemeViewController {
+            vc.memedImage = meme.memedImage
+            
+            navigationController?.pushViewController(vc, animated: true)
+        }
         
     }
     @IBAction func createMeme(_ sender: Any) {

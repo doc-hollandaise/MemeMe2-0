@@ -41,7 +41,6 @@ class CreateMemeViewController: UIViewController, UINavigationControllerDelegate
     weak var delegate: Presenter?
     
     @IBAction func shareButtonPressed(_ sender: Any) {
-        
         share()
     }
     
@@ -85,18 +84,21 @@ class CreateMemeViewController: UIViewController, UINavigationControllerDelegate
     }
     
     func generateMemedImage() -> UIImage {
-        
+        toggleBars(toState: .hidden)
+
         // Render view to an image
         UIGraphicsBeginImageContext(self.view.frame.size)
         view.drawHierarchy(in: self.view.frame, afterScreenUpdates: true)
         let memedImage:UIImage = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()
         
+        toggleBars(toState: .visible)
+        
         return memedImage
     }
     
-    func save(meme image: UIImage) {
-       
+    func save() {
+        let image = generateMemedImage()
         let meme = Meme(topText: topTextField.text!, bottomText: bottomTextField.text!, image: imagePickerView.image!, memedImage: image);
         
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
@@ -108,10 +110,8 @@ class CreateMemeViewController: UIViewController, UINavigationControllerDelegate
             return
         }
             
-        toggleBars(toState: .hidden)
+
         let memedImage = generateMemedImage()
-        self.save(meme: memedImage)
-        toggleBars(toState: .visible)
         
         let vc = UIActivityViewController(activityItems: [memedImage], applicationActivities: nil)
         vc.completionWithItemsHandler = {(activityType: UIActivityType?, completed: Bool, returnedItems: Any?, error: Error?) in
@@ -119,11 +119,9 @@ class CreateMemeViewController: UIViewController, UINavigationControllerDelegate
                 // User canceled, so nada
                 return
             }
-            //  returned items is nil now, so not saving as a result
-//            if let meme = returnedItems as? UIImage {
-//                self.save(meme: memedImage)
-//                return
-//            }
+
+            self.save()
+            return
         }
         present(vc, animated: true, completion: nil)
     }
